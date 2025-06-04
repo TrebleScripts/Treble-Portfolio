@@ -2,7 +2,7 @@
 Professional Roblox scripting portfolio
 *By Treble (@losttreble#8848)*
 
-Hey, I’m Treble — a professional Roblox scripter with 3+ years of experience and hundreds of hours spent mastering the platform.
+Hey, I’m Treble — I'm 21 and professional Roblox scripter with 3+ years of experience and hundreds of hours spent mastering the platform.
 
 I specialize in building complete, production-ready systems such as:
 - 🧳 Inventory frameworks with GUI + saving
