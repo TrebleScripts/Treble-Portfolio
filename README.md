@@ -20,7 +20,7 @@ I build systems that are **modular**, **scalable**, and designed for **long-term
 
 - ⏰ **Time Zone:** EST  
 - 💬 **Discord:** `losttreble#8848`  
-- 💼 **Commissions:** Open to part-time, long term, or task-based work. Timeframes are always communicated up front.  
+- 💼 **Commissions:** Open to part-time, long-term, or task-based work. Timeframes are always communicated up front.  
 - 💰 **Payment:** USD preferred. For larger or long-term projects, I’m open to negotiating % revenue share.
 
 ---
