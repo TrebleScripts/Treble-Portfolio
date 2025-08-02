@@ -119,6 +119,22 @@ end
 
 ---
 
+✅ Completed Projects
+Here are a few fully scripted systems or games I’ve completed from the ground up:
+
+🎮 Clone Battles (Playable Demo)
+Player-controlled clones auto-attack enemies with active behaviors
+
+Dynamic trait, ability, and stat progression systems
+
+Fully modular backend: combat, inventory, respawn, and tutorial
+
+Built from scratch using scalable, production-grade architecture
+
+More completed games will be added as I wrap up each milestone project.
+
+---
+
 ## 📬 Let's Work Together
 
 Thanks for checking out my portfolio!
