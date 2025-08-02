@@ -14,6 +14,8 @@ I have a deep understanding of the Roblox API and a strong grasp of best practic
 
 I build systems that are **modular**, **scalable**, and designed for **long-term content expansion**. I focus on performance, readability, and reliability.
 
+Most recently, I completed Clone Battles — a full-featured AI combat game built entirely from scratch.
+
 ---
 
 ## 📬 Availability
