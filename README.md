@@ -21,8 +21,7 @@ Most recently, I’ve delivered Clone Battles and a range of advanced AI, progre
 
 ---
 
-## 🧬 Trait System 
-— Game-Changing Unit Customization
+## 🧬 Trait System — Game-Changing Unit Customization
 This isn’t just a “buff and debuff” system — it’s a plug-and-play trait framework designed to give your game limitless replay value. Every trait can dynamically alter stats, swap abilities, and even apply unique visual effects — all handled server-side for security.
 
 Why it matters: Traits aren’t just cosmetic — they’re engagement hooks. When players log in wondering “What crazy build can I make today?”, retention skyrockets. This system makes that possible without spaghetti code or messy one-off scripts.
@@ -41,15 +40,53 @@ Supports All Playstyles – Passive effects, trigger-based boosts, and multi-tra
 
 ---
 
-##  Advanced AI System — Patrols & Behavior Modes
+##  Advanced AI System — Smart Patrols & Dynamic Behavior
+Keeps gameplay alive by ensuring enemies act like threats, not props.
 
-**Features:**
-- Enemy patrol routes with range-based aggro detection
-- Units displaying Aggressive, Neutral, and Passive behavior modes
-- State machine architecture for clean, maintainable logic
-- Server-authoritative AI decisions with smooth client-side feelers
+Why it matters:
+Enemy AI isn’t just “movement logic” — it’s one of the biggest factors in whether combat feels engaging or forgettable. Most Roblox AI is predictable and boring, which kills replayability. My AI system creates enemies that feel alive by making real decisions, adapting to player actions, and keeping encounters fresh.
+
+Key Highlights:
+
+Patrol & Aggro Logic – Enemies roam believable paths, only engaging when players breach their aggro zone.
+
+Dynamic Behavior Modes – Switch between Aggressive, Neutral, and Passive states to create variety and pacing.
+
+State Machine Architecture – Prevents “AI spaghetti” and makes it easy to add new behaviors without breaking old ones.
+
+Server-Authoritative – All logic runs on the server to prevent exploits, while smooth client feelers keep it responsive.
+
+Scalable – Can handle dozens of enemies at once without killing performance.
+
+Result:
+This system makes every encounter dynamic, scalable, and easy to expand with new AI types. In a game with repeat combat (PvE, grinding, dungeon runs), this can directly improve player retention by keeping fights from feeling repetitive.
 
 🎥 [![Watch Demo](https://img.youtube.com/vi/eTAlajXWrVA/0.jpg)](https://youtu.be/eTAlajXWrVA)
+
+---
+
+## ⚔️ Modular Frame-Based Combat — Precision, Fluidity, & Control
+The core of any great action game — built for responsiveness and scalability.
+
+Why it matters:
+Combat is where players decide if a game feels good. Bad hit detection, delayed inputs, or clunky combos will make them quit instantly. My combat framework is engineered for frame-perfect execution and future-proof expandability, giving you the foundation for everything from basic PvE to competitive PvP.
+
+Key Highlights:
+
+Directional Dash System – Players can dodge or engage in any direction with perfect control, adding depth and skill expression.
+
+M1 Combo State Machine – Clean, predictable combo chains that prevent animation breaking and input buffering issues.
+
+Ability Execution with Animation Syncing – Abilities connect exactly when the animation says they should, ensuring satisfying impact.
+
+Server-Authoritative – Hit detection and damage are validated server-side for anti-exploit reliability.
+
+Modular Controller Design – Want to add new attacks, abilities, or mechanics? Drop them in without rewriting core systems.
+
+Result:
+This combat system doesn’t just “work” — it feels responsive and rewarding, while being easy for devs to expand over time. Whether you’re making an anime battler, RPG, or arena PvP game, this is the kind of combat players will talk about after they log off.
+
+🎥 [![Watch Demo](https://img.youtube.com/vi/qMwRrTa3a9c/0.jpg)](https://youtu.be/qMwRrTa3a9c)
 
 ---
 
@@ -161,30 +198,6 @@ Supports All Playstyles – Passive effects, trigger-based boosts, and multi-tra
 
 🎥 [![Watch Demo](https://img.youtube.com/vi/MGMtambZZjM/0.jpg)](https://youtu.be/MGMtambZZjM)
 
-📄 **Code Sample: Binding Inputs-CombatSystem**
-```lua
-function CombatController:BindInputs()
-	UserInputService.InputBegan:Connect(function(input, gameProcessed)
-		if gameProcessed then return end -- Ignore UI or chat inputs
-		if self.InputLocked then return end -- prevent stacking
-		if self.CurrentState ~= StateEnum.IDLE then return end --Prevents spamming while attacking blocking etc
-		
-		if input.UserInputType == Enum.UserInputType.MouseButton1 then
-			self:StartAttack()
-		end
-	end)
-```
----
-
-## ⚔️ Modular Frame-Based Combat (Early Build)
-
-**Features:**
-- Directional dash system using Body Velocity
-- M1 combo startup with state machine logic
-- Ability execution with animation syncing
-- Clean, maintainable CombatController logic
-
-🎥 [![Watch Demo](https://img.youtube.com/vi/qMwRrTa3a9c/0.jpg)](https://youtu.be/qMwRrTa3a9c)
 
 ### 📄 Code Sample: Spawn SLot Lock With Timeout
 
