@@ -2,19 +2,25 @@
 Professional Roblox scripting portfolio
 *By Treble (@losttreble#8848)*
 
-Hey, I’m Treble — a 22-year-old full-stack Roblox scripter with over 2 years of experience and hundreds of hours dedicated to mastering both client and server-side development on the platform.
+Hey, I’m Treble — a 22-year-old full-stack Roblox scripter with 2+ years of experience building production-ready, studio-grade systems from the ground up. I’ve spent hundreds of hours mastering both client-side and server-side development, with a focus on creating gameplay and backend frameworks that scale effortlessly.
 
-I specialize in building complete, production-ready systems such as:
-- 🧳 Inventory frameworks with GUI + saving
-- ⚔️ Frame-based combat with animation syncing
-- 🎰 Gacha summoning systems with pity + auto-sell
-- 🧠 Turn-based AI logic with grid-based movement
+I specialize in developing complete, modular systems that combine polished UI/UX with secure, server-authoritative logic, including:
 
-I have a deep understanding of the Roblox API and a strong grasp of best practices used by top studios. While I don’t handle animations or VFX directly, I’m capable of scripting nearly any gameplay or backend system from the ground up.
+🧬 Dynamic trait and stat progression frameworks
 
-I build systems that are **modular**, **scalable**, and designed for **long-term content expansion**. I focus on performance, readability, and reliability.
+🤖 Advanced AI with patrols, behavior modes, and squad logic
 
-Most recently, I completed Clone Battles — a full-featured AI combat game built entirely from scratch.
+🛒 Monetization systems with gamepass shops, dev products, and promo codes
+
+⚔️ Frame-based combat with synced animations, abilities, and cooldowns
+
+🔫 Genre-spanning gameplay such as FPS weapon systems with bloom & recoil
+
+📦 Fully modular inventory, drop, and economy systems
+
+I follow best practices used by top studios, ensuring my code is readable, maintainable, and designed for long-term content expansion. While I don’t create animations or VFX myself, my systems are built to integrate seamlessly with them for polished final results.
+
+Most recently, I’ve delivered Clone Battles and a range of advanced AI, progression, and monetization systems that demonstrate both technical depth and player-focused design.
 
 ---
 
@@ -189,13 +195,26 @@ function CombatController:BindInputs()
 
 🎥 [![Watch Demo](https://img.youtube.com/vi/qMwRrTa3a9c/0.jpg)](https://youtu.be/qMwRrTa3a9c)
 
-### 📄 Code Sample: M1 Starter
+### 📄 Code Sample: Spawn SLot Lock With Timeout
 
 ```lua
-function CombatController:StartM1Combo()
-	if self.CurrentState ~= StateEnum.IDLE then return end
-	self:SetState(StateEnum.ATTACKING)
-	self:PlayAnimation("M1_" .. self.M1ComboStep)
+type SlotTimestampMap = {[number]: number}
+
+local LOCK_TIMEOUT: number = 10
+local ActiveCloneSpawn: {[Player]: SlotTimestampMap} = {}
+
+local function isLocked(player: Player, slot: number): boolean
+	local map: SlotTimestampMap? = ActiveCloneSpawn[player]
+	local v: number? = map and map[slot]
+	if v == nil then
+		return false
+	end
+	-- timestamp-based lock with timeout to avoid deadlocks
+	if typeof(v) == "number" and (tick() - v > LOCK_TIMEOUT) then
+		(map :: SlotTimestampMap)[slot] = nil
+		return false
+	end
+	return true
 end
 ```
 ---
