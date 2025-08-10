@@ -27,7 +27,24 @@ Most recently, I completed Clone Battles — a full-featured AI combat game buil
 
 ---
 
-## 🐾 Advanced Pet System
+🧬 Trait System — Dynamic Clone Modifiers
+Features:
+
+Fully scripted dynamic trait effects applied to units at spawn
+
+Persistent stat modifiers, ability changes, or visual effects per trait
+
+Modular trait definitions for easy expansion
+
+Server-authoritative application to prevent exploits
+
+Supports both passive and trigger-based trait logic
+
+🎥 [![Watch Demo](https://img.youtube.com/vi/8CloLn2hFfU/0.jpg)](https://youtu.be/8CloLn2hFfU)
+
+---
+
+🐾 Advanced Pet System
 
 **Features:**
 - Follows player using `Humanoid:MoveTo`
