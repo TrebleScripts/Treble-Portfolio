@@ -297,7 +297,6 @@ More completed games will be added as I wrap up each milestone project.
 ---
 
 ## 📬 Let’s Build Something Great
-
 If you’re looking for a reliable, studio-grade scripter who can take your game from concept to polished reality, let’s talk. I don’t just write code — I build scalable systems designed to keep your game growing and your players engaged for the long term.
 
 I work best with teams who value:
@@ -308,7 +307,9 @@ Clear, proactive communication
 
 Systems built with performance and security in mind
 
-📅 I’m currently taking on new projects — whether you need a full framework, a single system, or help refining your existing mechanics, I’ll bring a high standard of quality and a focus on results.
+📅 Currently taking new projects — I’ve delivered systems for multiple genres, from anime battlers to FPS, and RPGs. My work has helped games boost retention, streamline monetization, and stand out in crowded markets.
+
+If you’re ready to take your game’s systems to the next level, send me a message today — I take on a limited number of projects each month to maintain quality, so let’s secure your spot.
 
 ---
 
