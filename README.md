@@ -90,114 +90,151 @@ This combat system doesn’t just “work” — it feels responsive and rewardi
 
 ---
 
-##  Stat System — Dynamic UI & Upgrades
+## 🔫 FPS Gun System — Bloom, Recoil & Pixel-Precise Aim
+A responsive and customizable FPS weapon foundation, built for scalability and competitive balance.
 
-**Features:**
-- Modular stat upgrading with real-time preview of next-level gain
-- Price display per upgrade that turns **green when affordable**, **red when not**
-- Config-driven growth curves, pricing, and stat caps for scalable tuning
-- Server-authoritative validation—secure and cheat-resistant design
+Why it matters:
+Roblox FPS games live and die by feel. A good gun system should make every shot satisfying while preventing exploits and maintaining fairness across players. This system blends realism with responsiveness to keep players engaged.
+
+Key Highlights:
+
+Hip-Fire Bloom – Shots spread realistically when firing from the hip, rewarding ADS accuracy.
+
+Dynamic Recoil – Each shot adds weapon kick, giving guns unique personality and skill mastery.
+
+True Aim ADS Mode – Aim-down-sights removes bloom for pixel-perfect precision, ideal for skilled play.
+
+Instant ADS Toggle – Right-click to smoothly swap between ADS and hip-fire; mouse cursor hidden for full immersion.
+
+Server-Authoritative Hits – Damage validation happens server-side to eliminate cheating advantages.
+
+Modular Weapon Setup – Easily swap models, tweak recoil/bloom values, or add attachments without rewriting the system.
+
+Result:
+This isn’t just a “gun script” — it’s a competitive-ready FPS foundation that can scale into a full arsenal of weapons while keeping gameplay fair, fun, and satisfying.
+
+🎥 [![Watch Demo](https://img.youtube.com/vi/QG2JaUvORDE/0.jpg)](https://youtu.be/QG2JaUvORDE)
+
+## 📊 Stat Upgrade System — Live Feedback & Scalable Growth
+A progression backbone that keeps players invested and spending longer.
+
+Why it matters:
+A well-built stat system fuels player retention and monetization. This system makes upgrading rewarding, visually satisfying, and scalable for years of content.
+
+Key Highlights:
+
+Real-Time Feedback – Instantly preview the next-level stat boost before committing points or currency.
+
+Smart Price Indicators – Upgrade cost turns green when affordable, red when not, guiding players toward their next goal.
+
+Config-Driven Growth Curves – All growth rates, prices, and caps are defined in config files for easy balancing without touching core code.
+
+Secure Server Validation – Upgrade logic runs server-side, blocking any attempt at free or unauthorized upgrades.
+
+Built for Expansion – Add new stats, tweak progression pacing, or rebalance mid-season without downtime.
+
+Result:
+This isn’t just a stat system — it’s a player progression engine designed to keep players coming back, grinding for upgrades, and chasing that next big power spike.
 
 🎥 [![Watch Demo](https://img.youtube.com/vi/2KGHHXWZSlU/0.jpg)](https://youtu.be/2KGHHXWZSlU)
 
 ---
 
-##  Daily Spin & Daily Rewards — 24 hr Claim System
+## 🎁 Daily Spin & Rewards — Player Retention Engine
+Why it matters:
+Keeps players logging in every single day, boosting retention and engagement while creating natural opportunities for monetization through premium spins or bonus claims.
 
-**Features:**
-- Combined **Daily Spin** and **Daily Reward** mechanics with a strict 24-hour cooldown
-- Smooth, responsive UI for both the spin wheel and daily claim interface
-- Server-verified cooldown logic ensuring fairness and reliability
-- Animated spin wheel with prize highlight and instant reward delivery
+Highlights:
+
+Two-in-one system: Combines a Daily Spin with Daily Rewards to maximize excitement and habit-building.
+
+True 24-hour cooldown — server-verified to prevent exploits and keep rewards fair.
+
+Crisp, responsive UI for both spin wheel and reward claim panels.
+
+Reward delivery is instant — no lag between winning and receiving, keeping dopamine high.
+
+Monetization hooks: Easily configurable to offer paid extra spins, VIP multipliers, or streak bonuses.
 
 🎥 [![Watch Demo](https://img.youtube.com/vi/b4JnkmwbEGI/0.jpg)](https://youtu.be/b4JnkmwbEGI)
 
 ---
 
-##  Quest System — Dialogue, Tasks & Progress Tracking
+## 📜 Quest & Tutorial Framework — Guided Player Onboarding
+Why it matters:
+A strong first impression can be the difference between a player staying for hours or quitting in minutes. This system teaches mechanics, sets goals, and keeps players engaged from their very first click.
 
-**Features:**
-- Stage-based tutorial framework combining **dialogue** and **task-driven objectives**  
-- UI tracks player progress (e.g., “Defeat 5 Grunts”) and advances automatically when tasks are completed  
-- Smooth dialogue transitions framed with UI for clarity and immersion  
-- Server-side validation of task progress to ensure secure progression logic
+Highlights:
+
+Stage-based progression blending narrative dialogue with task-driven objectives.
+
+Live progress tracking UI (e.g., “Defeat 5 Grunts”) that updates instantly on task completion.
+
+Cinematic dialogue transitions with clean UI framing for immersion.
+
+Server-authoritative task validation to prevent cheating and maintain fair progression.
+
+Flexible enough to power both tutorials and full quest chains without rewriting core logic.
 
 🎥 [![Watch Demo](https://img.youtube.com/vi/AGnAVWRvg04/0.jpg)](https://youtu.be/AGnAVWRvg04)
 
 ---
 
-##  Loot & Currency System — Live Updates + Inventory Integration
+## 💰 Loot & Currency System — Instant Rewards + Inventory Sync
+Why it’s valuable:
+This system handles the core loop of any RPG or progression game — defeating enemies, getting loot, and seeing rewards update instantly. It’s designed to be fast, secure, and easy to expand.
 
-**Features:**
-- Boss defeat triggers **instant coin gain** with UI updates
-- Configurable **drop logic** allowing unique items (e.g., abilities) to be awarded
-- Inventory checked before and after drop to confirm successful delivery
-- Server-authoritative handling ensures secure and reliable reward distribution
+Features:
+
+Instant reward feedback — coins and items update in real-time on the client after a kill
+
+Flexible drop logic — easily configure per-enemy loot tables for coins, consumables, or rare abilities
+
+Inventory integration — automatically adds awarded items and confirms delivery
+
+Server-authoritative — all drops are validated server-side to prevent exploits or fake rewards
 
 🎥 [![Watch Demo](https://img.youtube.com/vi/lERYbf_q680/0.jpg)](https://youtu.be/lERYbf_q680)
 
 ---
 
-##  FPS Gun System — Bloom + Recoil & True Aim
+## 🐾 Advanced Pet System — Companion AI + Smooth Movement
+Why it’s valuable:
+A polished pet system boosts player engagement and monetization — from cosmetic companions to stat-boosting pets. This framework is built to drop into any game and scale with your needs.
 
-**Features:**
-- Hip-fire bloom that adds inaccuracy when shooting from the hip  
-- Dynamic recoil applied per shot for realistic feedback  
-- Aim-down-sights (ADS) mode removes bloom and enables pixel-precise accuracy  
-- Right Mouse Button toggles ADS; mouse is hidden to prioritize visual output  
-- Arms are welded to the gun in this prototype, which may look slightly off—final builds would use animations for realism  
-- Server-authoritative hit registration ensures accuracy and cheat resistance
+Features:
 
-🎥 [![Watch Demo](https://img.youtube.com/vi/QG2JaUvORDE/0.jpg)](https://youtu.be/QG2JaUvORDE)
+Smooth follow behavior — pets use Humanoid:MoveTo for natural pathfinding around obstacles
 
----
+Dynamic animations — automatically switches between idle and walking based on distance from the player
 
-## 🐾 Advanced Pet System
+Non-intrusive movement — collision disabled to prevent blocking or shoving players
 
-**Features:**
-- Follows player using `Humanoid:MoveTo`
-- Dynamic idle/walk animation control
-- Clean no-collision logic
-- Modular and expandable for stat or buff tracking
+Fully modular — easily add buffs, stat boosts, or special pet abilities in the future
 
 🎥 [![Watch Demo](https://img.youtube.com/vi/71atHFBhXtY/0.jpg)](https://youtu.be/71atHFBhXtY)
 
 ---
 
-##  Gamepass Shop & Code System — Monetization Ready
+## 💰 Gamepass Shop & Code System — Monetization-Ready Framework
+Why it’s valuable:
+A clean, secure monetization system is the backbone of any successful Roblox game. This system turns traffic into revenue with a professional, player-friendly shop and promo code support.
 
-**Features:**
-- Clean, responsive shop UI with support for **Gamepasses** and **Dev Products**
-- Integrated **code redemption menu** for promo rewards
-- Seamless **Studio test purchase** confirms gamepass or item appears in player inventory
-- Modular backend built on `MarketplaceService` with verification for secure transactions
+Features:
+
+Polished shop UI — clean, responsive layout for both Gamepasses and Dev Products
+
+Promo code system — easily run events or reward loyal players with exclusive items
+
+Studio test-ready — supports in-Studio test purchases for instant dev feedback
+
+Secure backend — MarketplaceService verification ensures every purchase is legitimate
+
+Fully modular — plug in new passes, products, or codes without touching core logic
 
 🎥 [![Watch Demo](https://img.youtube.com/vi/TQrDp08RWHQ/0.jpg)](https://youtu.be/TQrDp08RWHQ)
 
 ---
-
-## 🧠 Advanced DataStore & Inventory System
-
-**Features:**
-- Caching, autosave, and dirty tracking
-- Fully modular inventory system
-- Equip/Unequip system with GUI support
-- Persistent data with deep validation logic
-
-🎥 [![Watch Demo](https://img.youtube.com/vi/wBUqW5cOU0Q/0.jpg)](https://youtu.be/wBUqW5cOU0Q)
-
----
-
-## ✨ Gacha Summon System
-
-**Features:**
-- Simulator-style summon pads
-- Scroll currency + pity system
-- Rarity-based auto-sell & gamepass support
-- Clean unit result display & inventory update
-
-🎥 [![Watch Demo](https://img.youtube.com/vi/MGMtambZZjM/0.jpg)](https://youtu.be/MGMtambZZjM)
-
 
 ### 📄 Code Sample: Spawn SLot Lock With Timeout
 
@@ -223,27 +260,21 @@ end
 ```
 ---
 
-## 🔥 Kamehameha Ability (VFX Prototype)
+## 🔥 Kamehameha Ability — Cinematic VFX + Server-Synced Damage
+Why it’s valuable:
+A standout ability like this keeps players talking and creates shareable, high-impact gameplay moments. Built for both wow factor and competitive balance, this Kamehameha prototype combines cinematic visuals with fully synced, server-side hit detection.
 
-**Features:**
-- Charge-based beam ability
-- Raycast damage with forward targeting
-- Animation-locked cast time
-- Server-authoritative execution
+Features:
+
+Cinematic beam VFX — custom particle work for anime-style energy blasts
+
+Accurate raycast targeting — ensures reliable hits without client-side exploits
+
+Server-authoritative execution — secure, consistent damage handling in multiplayer
+
+Animation lock-in — prevents movement during cast for balanced gameplay pacing
 
 🎥 [![Watch Demo](https://img.youtube.com/vi/JjYn_r5dQQI/0.jpg)](https://youtu.be/JjYn_r5dQQI)
-
----
-
-## 🏗️ Tycoon Income System
-
-**Features:**
-- Passive income through HexCoin generators
-- Upgrade system tied to GUI buttons
-- Currency stored server-side
-- Clean part-cloning placement logic
-
-🎥 [![Watch Demo](https://img.youtube.com/vi/grtWmGFbn30/0.jpg)](https://youtu.be/grtWmGFbn30)
 
 ---
 
