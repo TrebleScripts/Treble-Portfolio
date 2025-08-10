@@ -21,7 +21,8 @@ Most recently, I’ve delivered Clone Battles and a range of advanced AI, progre
 
 ---
 
-🧬 Trait System — Game-Changing Unit Customization
+##🧬 Trait System 
+— Game-Changing Unit Customization
 This isn’t just a “buff and debuff” system — it’s a plug-and-play trait framework designed to give your game limitless replay value. Every trait can dynamically alter stats, swap abilities, and even apply unique visual effects — all handled server-side for security.
 
 Why it matters: Traits aren’t just cosmetic — they’re engagement hooks. When players log in wondering “What crazy build can I make today?”, retention skyrockets. This system makes that possible without spaghetti code or messy one-off scripts.
