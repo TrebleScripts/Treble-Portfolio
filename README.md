@@ -44,6 +44,80 @@ Supports both passive and trigger-based trait logic
 
 ---
 
+##  Advanced AI System — Patrols & Behavior Modes
+
+**Features:**
+- Enemy patrol routes with range-based aggro detection
+- Units displaying Aggressive, Neutral, and Passive behavior modes
+- State machine architecture for clean, maintainable logic
+- Server-authoritative AI decisions with smooth client-side feelers
+
+🎥 [![Watch Demo](https://img.youtube.com/vi/eTAlajXWrVA/0.jpg)](https://youtu.be/eTAlajXWrVA)
+
+---
+
+##  Stat System — Dynamic UI & Upgrades
+
+**Features:**
+- Modular stat upgrading with real-time preview of next-level gain
+- Price display per upgrade that turns **green when affordable**, **red when not**
+- Config-driven growth curves, pricing, and stat caps for scalable tuning
+- Server-authoritative validation—secure and cheat-resistant design
+
+🎥 [![Watch Demo](https://img.youtube.com/vi/2KGHHXWZSlU/0.jpg)](https://youtu.be/2KGHHXWZSlU)
+
+---
+
+##  Daily Spin & Daily Rewards — 24 hr Claim System
+
+**Features:**
+- Combined **Daily Spin** and **Daily Reward** mechanics with a strict 24-hour cooldown
+- Smooth, responsive UI for both the spin wheel and daily claim interface
+- Server-verified cooldown logic ensuring fairness and reliability
+- Animated spin wheel with prize highlight and instant reward delivery
+
+🎥 [![Watch Demo](https://img.youtube.com/vi/b4JnkmwbEGI/0.jpg)](https://youtu.be/b4JnkmwbEGI)
+
+---
+
+##  Quest System — Dialogue, Tasks & Progress Tracking
+
+**Features:**
+- Stage-based tutorial framework combining **dialogue** and **task-driven objectives**  
+- UI tracks player progress (e.g., “Defeat 5 Grunts”) and advances automatically when tasks are completed  
+- Smooth dialogue transitions framed with UI for clarity and immersion  
+- Server-side validation of task progress to ensure secure progression logic
+
+🎥 [![Watch Demo](https://img.youtube.com/vi/AGnAVWRvg04/0.jpg)](https://youtu.be/AGnAVWRvg04)
+
+---
+
+##  Loot & Currency System — Live Updates + Inventory Integration
+
+**Features:**
+- Boss defeat triggers **instant coin gain** with UI updates
+- Configurable **drop logic** allowing unique items (e.g., abilities) to be awarded
+- Inventory checked before and after drop to confirm successful delivery
+- Server-authoritative handling ensures secure and reliable reward distribution
+
+🎥 [![Watch Demo](https://img.youtube.com/vi/lERYbf_q680/0.jpg)](https://youtu.be/lERYbf_q680)
+
+---
+
+##  FPS Gun System — Bloom + Recoil & True Aim
+
+**Features:**
+- Hip-fire bloom that adds inaccuracy when shooting from the hip  
+- Dynamic recoil applied per shot for realistic feedback  
+- Aim-down-sights (ADS) mode removes bloom and enables pixel-precise accuracy  
+- Right Mouse Button toggles ADS; mouse is hidden to prioritize visual output  
+- Arms are welded to the gun in this prototype, which may look slightly off—final builds would use animations for realism  
+- Server-authoritative hit registration ensures accuracy and cheat resistance
+
+🎥 [![Watch Demo](https://img.youtube.com/vi/QG2JaUvORDE/0.jpg)](https://youtu.be/QG2JaUvORDE)
+
+---
+
 ## 🐾 Advanced Pet System
 
 **Features:**
@@ -53,6 +127,18 @@ Supports both passive and trigger-based trait logic
 - Modular and expandable for stat or buff tracking
 
 🎥 [![Watch Demo](https://img.youtube.com/vi/71atHFBhXtY/0.jpg)](https://youtu.be/71atHFBhXtY)
+
+---
+
+##  Gamepass Shop & Code System — Monetization Ready
+
+**Features:**
+- Clean, responsive shop UI with support for **Gamepasses** and **Dev Products**
+- Integrated **code redemption menu** for promo rewards
+- Seamless **Studio test purchase** confirms gamepass or item appears in player inventory
+- Modular backend built on `MarketplaceService` with verification for secure transactions
+
+🎥 [![Watch Demo](https://img.youtube.com/vi/TQrDp08RWHQ/0.jpg)](https://youtu.be/TQrDp08RWHQ)
 
 ---
 
