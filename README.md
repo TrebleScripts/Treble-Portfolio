@@ -2,23 +2,11 @@
 Professional Roblox scripting portfolio
 *By Treble (@losttreble#8848)*
 
-Hey, I’m Treble — a 22-year-old full-stack Roblox scripter with 2+ years of experience building production-ready, studio-grade systems from the ground up. I’ve spent hundreds of hours mastering both client-side and server-side development, with a focus on creating gameplay and backend frameworks that scale effortlessly.
+I’m Treble — a full-stack Roblox scripter specializing in building studio-grade, production-ready systems from scratch. With over 2 years of professional experience and hundreds of hours spent refining my craft, I deliver secure, scalable, and polished gameplay systems that keep players engaged and games growing.
 
-I specialize in developing complete, modular systems that combine polished UI/UX with secure, server-authoritative logic, including:
+From frame-perfect combat frameworks to advanced AI, monetization systems, and modular backends, my code is built to handle long-term content expansion without breaking under pressure. I work on both client and server with equal fluency, ensuring smooth gameplay, airtight security, and clean, maintainable code.
 
-🧬 Dynamic trait and stat progression frameworks
-
-🤖 Advanced AI with patrols, behavior modes, and squad logic
-
-🛒 Monetization systems with gamepass shops, dev products, and promo codes
-
-⚔️ Frame-based combat with synced animations, abilities, and cooldowns
-
-🔫 Genre-spanning gameplay such as FPS weapon systems with bloom & recoil
-
-📦 Fully modular inventory, drop, and economy systems
-
-I follow best practices used by top studios, ensuring my code is readable, maintainable, and designed for long-term content expansion. While I don’t create animations or VFX myself, my systems are built to integrate seamlessly with them for polished final results.
+If you need someone who can take a feature from idea to launch, integrate seamlessly with your team, and deliver results that scale, that’s exactly what I do.
 
 Most recently, I’ve delivered Clone Battles and a range of advanced AI, progression, and monetization systems that demonstrate both technical depth and player-focused design.
 
@@ -33,18 +21,20 @@ Most recently, I’ve delivered Clone Battles and a range of advanced AI, progre
 
 ---
 
-## 🧬 Trait System — Dynamic Clone Modifiers
-Features:
+🧬 Trait System — Game-Changing Unit Customization
+This isn’t just a “buff and debuff” system — it’s a plug-and-play trait framework designed to give your game limitless replay value. Every trait can dynamically alter stats, swap abilities, and even apply unique visual effects — all handled server-side for security.
 
-Fully scripted dynamic trait effects applied to units at spawn
+Why it matters: Traits aren’t just cosmetic — they’re engagement hooks. When players log in wondering “What crazy build can I make today?”, retention skyrockets. This system makes that possible without spaghetti code or messy one-off scripts.
 
-Persistent stat modifiers, ability changes, or visual effects per trait
+Core Advantages:
 
-Modular trait definitions for easy expansion
+Dynamic Runtime Effects – Traits apply instantly when units spawn, affecting stats, abilities, or visuals.
 
-Server-authoritative application to prevent exploits
+Exploit-Proof Architecture – Server-authoritative logic keeps trait effects safe from manipulation.
 
-Supports both passive and trigger-based trait logic
+Fully Modular – Add, remove, or tweak traits without touching core combat code.
+
+Supports All Playstyles – Passive effects, trigger-based boosts, and multi-trait stacking supported.
 
 🎥 [![Watch Demo](https://img.youtube.com/vi/8CloLn2hFfU/0.jpg)](https://youtu.be/8CloLn2hFfU)
 
@@ -261,18 +251,19 @@ More completed games will be added as I wrap up each milestone project.
 
 ---
 
-## 📬 Let's Work Together
+## 📬 Let’s Build Something Great
 
-Thanks for checking out my portfolio!
+If you’re looking for a reliable, studio-grade scripter who can take your game from concept to polished reality, let’s talk. I don’t just write code — I build scalable systems designed to keep your game growing and your players engaged for the long term.
 
-If you have any questions about a system I built, want to see more examples of my work, or you're unsure whether your project is a good fit — feel free to reach out. I'm happy to walk you through my process, explain how I approach problems, or talk about how I can help bring your game to life.
+I work best with teams who value:
 
-I work best with teams and clients who value:
-- Clean, modular code that's built to scale
-- Clear communication and reliability
-- Game systems designed for long-term content expansion
+Clean, modular code that’s easy to expand
 
-Whether you need a full framework, a single system, or just help refining your current mechanics, I’ll bring a high standard of quality and long-term thinking to the table.
+Clear, proactive communication
+
+Systems built with performance and security in mind
+
+📅 I’m currently taking on new projects — whether you need a full framework, a single system, or help refining your existing mechanics, I’ll bring a high standard of quality and a focus on results.
 
 ---
 
